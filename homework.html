@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gaegu&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Gaegu', cursive;
+        }
+
+        .texth {
+            text-align: center;
+        }
+
+        .wrap {
+            width: 900px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            width: 400px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+    </style>
+
+    <title> 0311 숙제 </title>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="card">
+            <img class="card-img-top"
+                src="data:image/jpeg;base64,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"
+                alt="Card image cap">
+            <div class="card-body"></div>
+        </div>
+
+        <div>
+            <h1 class=" texth"> 팝니다. </h1>
+            가격: 3,000원/개<br>
+            이 양초는 사실 특별한 힘을 가지고 있어요.
+            <br><br>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">주문자 이름</li>
+                </ol>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+                    <li class="breadcrumb-item active" aria-current="page">주소</li>
+                </ol>
+            </nav>
+
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+
+
+                    <li class="breadcrumb-item active" aria-current="page ">전화번호</li>
+                </ol>
+            </nav>
+
+            <button type="button" class="btn btn-secondary">수량</button>
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    수량을 선택하세요
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+</html>
